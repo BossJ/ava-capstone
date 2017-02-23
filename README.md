@@ -1,6 +1,22 @@
 # Capstone
 Private repository for UW iSchool capstone project 2017.
 
+2/21 - 2/27 (Week 8 : Functioning Display):
+
+Meeting Notes:
+
+- Main Goal: Will wants something to show and interact with that's company appropriate.
+
+To-Do:
+  
+- Bruce needs to build a main page that correctly displays our bot.
+- Jess adds CSS to Bruce's page.
+- Julian needs to figure out how to export all question data to private spreadsheets.
+- John will poll for questions and start building a list for Will.
+
+Done:
+
+
 2/14 - 2/20 (Week 7 : Build Base):
 
 Meeting Notes:
