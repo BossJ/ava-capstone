@@ -22,7 +22,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
-                defaultMessage: 'No match! Try changing the query terms!',
+                defaultMessage: 'Sorry! That question is not currently answered, we\'ll try answer it soon!',
                 qnaThreshold: 0.3}
 );
 
