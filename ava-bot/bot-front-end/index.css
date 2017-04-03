@@ -34,7 +34,7 @@
     color: #424242;
 }
 
-.wc-header {
+.wc-header , .wc-message-from-me .wc-message-content{
     background-color: #FF5800;
 }
 
