@@ -44,10 +44,12 @@
 }
 
 .wc-message-from-me .wc-message-content{
-    background-color: #FF5800;
+    /* background-color: #FF5800; /* darker luminous */
+    background-color: #FFB414; /* lighter luminous */
 }
 .wc-message-from-me svg.wc-message-callout path {
-    fill: #FF5800;
+    /* fill: #FF5800; /* darker luminous */
+    fill: #FFB414; /* lighter luminous */
 }
 
 #bot {
