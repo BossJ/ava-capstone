@@ -24,7 +24,6 @@
 .center {
     text-align: center;
     align-content: center;
-    /*margin: 0 auto 30px;*/
 }
 
 #welcome-message {
@@ -39,8 +38,11 @@
     background-color: #FF5800;
 }
 
-iframe {
+#bot {
+    width: 300px;
     height: 400px;
+    position: relative;
+
     display: block;
     margin: 0 auto 60px;
     background-color: white;
@@ -48,6 +50,7 @@ iframe {
     border-width: .5px;
     border-color: grey;
     box-shadow: 0 1px 5px rgba(0,0,0,.3);
+
 }
 
 #footer {

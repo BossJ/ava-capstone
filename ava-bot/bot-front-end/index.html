@@ -3,33 +3,20 @@
 <head>
     <meta charset='UTF-8'>
     <title>Bot Test</title>
+    <link href="https://unpkg.com/botframework-webchat/botchat.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <!--<div id="big">
-        <form id='input'>
-            <div class="one-input">
-                <label>Input: </label>
-                <br>
-                <input name = 'first_input' id ='first_input' type='text' placeholder='ask' required>
-                <button id="s-button">Submit</button>
-            </div>
-        </form>
-        <div id="result">
-          <label>Result: </label>
-          <br>
-          <p id="message"></p>
-        </div>
-    </div>-->
 
-<div class="content">
+<div class="content wc-narrow">
     <div class="header" >
 
     </div>
 
-        <h1 class="center" id="title">Hi, my name is Ava.</h1>
-        <p class="center" id="welcome-message">Enter frequently asked questions in the chat box below.</p>
-        <iframe class="center" src="https://webchat.botframework.com/embed/avanue?s=IEBKHkrLqu4.cwA.Aqg.0Oo4he6dQL5I3wdHqKKLTn8eO0_lZkKNpxHGaYYlBBs">chatbot</iframe>
+    <h1 class="center" id="title">Hi, my name is Ava.</h1>
+    <p class="center" id="welcome-message">Enter frequently asked questions in the chat box below.</p>
+    <!-- <iframe class="center" src="https://webchat.botframework.com/embed/avanue?s=IEBKHkrLqu4.cwA.Aqg.0Oo4he6dQL5I3wdHqKKLTn8eO0_lZkKNpxHGaYYlBBs">chatbot</iframe>-->
+    <div id="bot"></div>
 
     <div class="" id="footer">
         <a class="footer-text" id="links" href="https://www.avanade.com/en-us">Avanade Home</a>
@@ -37,8 +24,14 @@
     </div>
 
 </div>
-
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-    <script src='index.js'></script>
+<script src="https://unpkg.com/botframework-webchat/botchat.js"></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script>
+    BotChat.App({
+        directLine: { secret: "Rvi9KhRnhsI.cwA.c7Y.v_D3rhad0YWt6um8Wo364Z-rv7CxjxqpCY6aPqeURr8", webSocket:true },
+        user:  { id: 'ava-bot@outlook.com' },
+        bot: { id: 'brucebot' }
+    }, document.getElementById("bot"));
+</script>
 </body>
 </html>
