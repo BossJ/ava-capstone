@@ -34,6 +34,7 @@
     color: #424242;
 }
 
+/* header gradient */
 .wc-header {
     background: #FF5800; /* not supported browsers */
     background: -webkit-linear-gradient(left top, rgba(255,180,20,1), rgba(255,88,0,1)); /* For Safari 5.1 to 6.0 */
@@ -41,8 +42,12 @@
     background: -moz-linear-gradient(bottom right, rgba(255,180,20,1), rgba(255,88,0,1)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, rgba(255,180,20,1), rgba(255,88,0,1)); /* standard (Chrome) */
 }
+
 .wc-message-from-me .wc-message-content{
     background-color: #FF5800;
+}
+.wc-message-from-me svg.wc-message-callout path {
+    fill: #FF5800;
 }
 
 #bot {
