@@ -90,3 +90,8 @@
     float: right;
     color: #ffffff;
 }
+
+#privacy {
+    color: #FF5800;
+    text-decoration: underline;
+}
