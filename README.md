@@ -11,7 +11,7 @@ Ava is a chatbot designed to facilitate and continually improve Avanade’s onli
 * Microsoft LUIS
     * The Language Understanding Intelligent Service (LUIS) allows Ava to continually make smarter choices by analyzing the intent of the words & sentences a visitor inputs into the conversation. LUIS also allows the administrator to develop custom knowledge bases that specifically cater to whatever culture is within the company.
 * Node.js
-    *
+    * Node.js is easily compatible with Microsoft's Bot Framework, so the documentation was very helpful in figuring out our first steps with Ava. Luckily, Avanade also supports and can work around with Node on their back-end. Node.js also takes almost no system resources to when dealing with many clients, which is perfect for browser-based chat applications - like Ava.
 
 ### Contact Information
 * Julian Boss (bossj@uw.edu)
