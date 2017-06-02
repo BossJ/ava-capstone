@@ -7,7 +7,7 @@ Ava is a chatbot designed to facilitate and continually improve Avanade’s onli
 * Microsoft QnA Maker
     * Microsoft's QnA Maker allows us to connect knowledge databases that Ava can use when communicating with a website visitor. Here, we can add question and answere pairs, improve answers, and add new questions/answers from previous conversations.
 * Microsoft Azure
-    *
+    * Microsoft Azure handles all of our back-end details
 * Microsoft LUIS
     *
 * Node.js
