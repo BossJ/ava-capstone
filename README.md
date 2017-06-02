@@ -7,9 +7,9 @@ Ava is a chatbot designed to facilitate and continually improve Avanade’s onli
 * Microsoft QnA Maker
     * Microsoft's QnA Maker allows us to connect knowledge databases that Ava can use when communicating with a website visitor. Here, we can add question and answere pairs, improve answers, and add new questions/answers from previous conversations.
 * Microsoft Azure
-    * Microsoft Azure handles all of our back-end details
+    * Microsoft Azure handles all of our back-end details to actually run Ava. Here, we can also retrieve logs about separate conversations, unanswered questions, and confusion when visitors use Ava.
 * Microsoft LUIS
-    *
+    * The Language Understanding Intelligent Service (LUIS) allows Ava to continually make smarter choices by analyzing the intent of the words & sentences a visitor inputs into the conversation. LUIS also allows the administrator to develop custom knowledge bases that specifically cater to whatever culture is within the company.
 * Node.js
     *
 
