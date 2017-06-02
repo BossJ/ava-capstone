@@ -3,15 +3,15 @@ Ava is a chatbot designed to facilitate and continually improve Avanade’s onli
 
 ### Technologies Used
 * Microsoft Bot Framework
-     *
+    * The Bot Framework is a very new framework that already has a lot of functionality. It is also constantly adding and improving features that can be integrated, offering more functionality as time goes on. The Bot Framework already has the ability to connect to many different channels like Skype, Bing, Slack, Twilio, GroupMe, Cortana, Kik, Facebook Messenger, and much more.
 * Microsoft QnA Maker
-     *
+    *
 * Microsoft Azure
-     *
+    *
 * Microsoft LUIS
-     *
+    *
 * Node.js
-     *
+    *
 
 ### Contact Information
 * Julian Boss (bossj@uw.edu)
