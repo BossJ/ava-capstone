@@ -9,10 +9,10 @@ Ava is a chatbot designed to facilitate and continually improve Avanade’s onli
 * Node.js
 
 ### Contact Information
-* Julian Boss
-* Jessica Kuelz
-* John Yun
-* Bruce Shu
+* Julian Boss (bossj@uw.edu)
+* Jessica Kuelz (jmkuelz@uw.edu)
+* John Yun (johnyun@uw.edu)
+* Bruce Shu (shuchangbruce@gmail.com)
 
 ## Final Product
 http://ava-uw-front.azurewebsites.net/ava-bot/bot-front-end/index.html
