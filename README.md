@@ -3,15 +3,15 @@ Ava is a chatbot designed to facilitate and continually improve Avanade’s onli
 
 ### Technologies Used
 * Microsoft Bot Framework
-    *
+     *
 * Microsoft QnA Maker
-    *
+     *
 * Microsoft Azure
-    *
+     *
 * Microsoft LUIS
-    *
+     *
 * Node.js
-    *
+     *
 
 ### Contact Information
 * Julian Boss (bossj@uw.edu)
