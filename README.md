@@ -15,6 +15,6 @@ Ava is a chatbot designed to facilitate and continually improve Avanade’s onli
 * Bruce Shu (shuchangbruce@gmail.com)
 
 ## Final Product
-http://ava-uw-front.azurewebsites.net/ava-bot/bot-front-end/index.html
+Live preview: http://ava-uw-front.azurewebsites.net/ava-bot/bot-front-end/index.html
 
 Video: https://youtu.be/g7IHfsR1dzM
